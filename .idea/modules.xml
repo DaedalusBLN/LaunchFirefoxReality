@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/LaunchFirefoxReality.iml" filepath="$PROJECT_DIR$/LaunchFirefoxReality.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LaunchFirefoxReality.iml" filepath="$PROJECT_DIR$/.idea/LaunchFirefoxReality.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/LaunchFirefoxReality.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/LaunchFirefoxReality.app.iml" />
     </modules>
   </component>
 </project>
