@@ -1,4 +1,4 @@
-package com.machenmusik.launchoculusbrowser;
+package com.daedalusbln.launchfirefoxreality;
 
 import android.content.ClipData;
 import android.content.ClipboardManager;
@@ -25,11 +25,11 @@ public class MainActivity extends AppCompatActivity {
         Log.d(this.getPackageName(), "getDataString() " + i.getDataString());
         Log.d(this.getPackageName(), "getStringExtra(EXTRA_TEXT) " + i.getStringExtra(Intent.EXTRA_TEXT));
 
-        // Form the intent to launch the Oculus Browser.
+        // Form the intent to launch Firefox Reality.
         Intent o = new Intent();
         o.setAction(Intent.ACTION_MAIN);
         o.setClassName("com.oculus.vrshell", "com.oculus.vrshell.MainActivity");
-        o.setData(Uri.parse("apk://com.oculus.browser"));
+        o.setData(Uri.parse("apk://org.mozilla.vrbrowser"));
 
         // Prepare to sift through any provided text for URI to open.
         Pattern uriPattern = android.util.Patterns.WEB_URL;
